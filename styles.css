@@ -1,48 +1,56 @@
-*{
-    box-sizing: border-box;
-     margin: 0;
-     padding: 0;
-   }
-   body{
-   line-height: 1.6;
-     text-align: center;
-   }
-   #main{
-     max-width: 800px;
-     margin: 20px auto;
-     
-     background: white;
-     padding: 20px;
-     border-radius: 8px;
-   }
-   #title {
-     font-size: 2.5rem;
-     margin-bottom: 20px;
-   }
-   #img-div {
-     margin: 20px 0;
-   }
-   #image {
-     display: block; 
-     max-width: 100%; 
-     height: auto; 
-     margin: 0 auto; 
-   }
-   #img-caption {
-     margin-top: 10px;
-     font-size: 1.2rem;
-     color: #555;
-   }
-   #tribute-info {
-     text-align: left;
-     font-size: 1.1rem;
-     line-height: 1.8;
-   }
-   ul {
-     list-style-type: none;
-     padding-left: 0;
-   }
-   
-   li {
-     margin-bottom: 10px;
-   }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image {
+    display: block; /* Set display to block */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px;
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center; /* Center the caption */
+}
+
+#tribute-info {
+    margin-bottom: 20px;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
